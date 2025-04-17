@@ -117,7 +117,16 @@ footer {
    cursor: pointer;
    padding: 5px;
    font-family: 'Arial', sans-serif;
-   background-color: red;
+   background-color: red;}
+.car-t{
+    background-color: rgb(204, 195, 195);
+    margin-left: 1300px;
+    cursor: pointer;
+}
+.car-t:hover{
+    font-size: medium;
+    background-color: gray;
+}
 
 }
 .log-in:hover{
