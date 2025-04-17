@@ -60,7 +60,7 @@ nav a:hover {
 }
 
 .product-card {
-    background: white;
+    background: rgb(175, 164, 164);
     padding: 1rem;
     border-radius: 10px;
     text-align: center;
@@ -68,10 +68,10 @@ nav a:hover {
 }
 
 .product-card img {
-    width: 100%;
-    max-height: 200px;
+    width: 20%;
+    height: auto;
     object-fit: cover;
-    border-radius: 5px;
+ol 
 }
 
 .btn {
