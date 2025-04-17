@@ -7,6 +7,134 @@
     <title>Jigme Pasta Production - Authentic Bhutanese Pasta</title>
     
     <link rel="stylesheet" href="website/Web.css">
+  <style>
+    :root {
+    --primary-color: #E63946;
+    --secondary-color: #F1FAEE;
+    --accent-color: #A8DADC;
+    --dark-color: #1D3557;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: var(--secondary-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--dark-color);
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+    background-color: var(--accent-color);
+    color: var(--dark-color);
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('pasta-bg.jpg');
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.product-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.btn:hover {
+    background-color: var(--dark-color);
+}
+
+footer {
+    background-color: var(--dark-color);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .products {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.log-in{
+   border-radius:5px; 
+   border-color: black;
+   border: solid 1px;
+   color: rgb(252, 248, 248);
+   cursor: pointer;
+   padding: 5px;
+   font-family: 'Arial', sans-serif;
+   background-color: red;
+
+}
+.log-in:hover{
+    font-size: medium;
+    color:rgba(247, 241, 241, 0.692);
+}
+  </style>
 </head>
 <body>
     <header>
