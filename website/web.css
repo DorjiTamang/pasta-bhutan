@@ -133,3 +133,9 @@ footer {
     font-size: medium;
     color:rgba(247, 241, 241, 0.692);
 }
+.head{
+    text-align: center;
+    display: inline-block;
+    color: white;
+    width: 300px;
+}
